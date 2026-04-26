@@ -1,17 +1,17 @@
 from pathlib import Path
-
 import pandas as pd
+import os
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
-
-
-data_file = Path(__file__).resolve().parent / "ESSBE5.csv"
+current_file_path = os.path.abspath(__file__)
+script_directory = os.path.dirname(current_file_path)
+os.chdir(script_directory)
 
 # 1. Data voorbereiden
-data = pd.read_csv(data_file)
+data = pd.read_csv("ESSBE5.csv")
 data = data.dropna(subset=["trstplc"])
 
 pipeline = Pipeline(
@@ -22,7 +22,6 @@ pipeline = Pipeline(
 )
 
 # 2. Selecteer relevante variabelen
-# De doelvariabele hoort niet in de input-features, anders lekt het juiste antwoord in het model.
 selected_features = ["agea", "female", "hincfel", "plcpvcr"]
 X = data[selected_features]
 y = data["trstplc"]
