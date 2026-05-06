@@ -1,0 +1,131 @@
+3 quizjes
+# Quiz: Hoofdstuk 2: Leren uit data
+1. Wat is het primaire doel van een ML-model?
+  1. Het exact kopiëren van de trainingsdata
+  2. Het identificeren van patronen in data om voorspellingen te maken ✅
+  3. Het verminderen van de datasetomvang
+  4. Het vermijden van alle fouten in data
+2. Wat betekent 'leren uit data' in de context van ML?
+  1. Data handmatig analyseren om trends te ontdekken
+  2. Het handmatig schrijven van regels om voorspellingen te maken
+  3. Een model laten trainen op data zodat het zelfstandig patronen herkent ✅
+  4. Het structureren van data in een tabel
+3. Welke van de volgende is GEEN onderdeel van een supervised learing proces?
+  1. Een model trainen op gelabelde data
+  2. Een model valideren met een testset
+  3. Data gebruiken zondere enige labels of uitkomsten ✅
+  4. Het aanpassen van modelparameters op basis van trainingsresultaten
+4. Wat is de belangrijkste reden om data te normaliseren voordat een ML-model wordt getraind?
+  1. Om dataset kleiner te maken
+  2. Om ervoor te zorgen dat alle variabelen een vergelijkbare schaal hebben ✅
+  3. Om onnodige data te verwijderen
+  4. Om de output van het model te verbeteren zonder de input te veranderen
+5. Wat is een correlatiematrix?
+  1. Een tabel die de relaties tussen verschillende variabelen weergeeft ✅
+  2. een matrix die wordt gebruikt om outliers te verwijderen
+  3. een methode om missende variabelen te bekijken
+  4. irrelevante variabelen bekijken
+6. Welke waarde betekent at er geen correlatie is tussen twee vars?
+  1. -1
+  2. 0 ✅
+  3. 1
+  4. 10
+7. Waarom belangrijk om outliers te detecteren in dataset?
+  1. Outliers kunnen prestaties van ML-model negatief beinvloeden ✅
+  2. Outliers zijn altijd fouten en moeten worden verwijderd
+  3. Outliers maken de dataset gemakkelijker te analyseren
+  4. Outliers zijn niet belangrijk voor ML
+8. Wat is een univariate analysis?
+  1. Een analyse waarbij slechts één variabele wordt onderzocht ✅
+  2. Een methode om twee variabelen met elkaar te vergelijken
+  3. Een techniek om ontbrekende waarden in een dataset in te vullen
+  4. Een manier om complexe modellen te vereenvoudigen
+9. Welke visualisatie is het meest geschikt om de verdeling van een enkele nmerieke variabele weer te geven?
+  1. scatterplot
+  2. boxplot
+  3. histogram ✅
+  4. heatmap
+10. Wat betekent een negatieve correlatie tussen twee variabelen?
+  1. Een toename in de ene varabele leidt tot een afname in de andere ✅
+  2. beide vars nemen altijd samen toe
+  3. 
+11. Waarom is het berekenen van de stddev nuttig bij het analyseren van data?
+12. welke van de volgende methoden kan worden gebruikt om ontbrekende waarden in een dataset te behandelen?
+  1. Ontbrekende rijen verwijderen
+  2. Ontbrekende waarden invullen met het gemiddelde
+  3. De ontbrekende waarden vervangen door 0
+  4. Alle bovenstaande antwoorden zijn correct ✅
+13. Welke maatstaf wordt vaak gebruikt om de spreiding van data rond het gemiddelde te meten?
+  1. Stddev ✅
+  2. Mediaan
+  3. Correlatiecoëfficient
+  4. Modus
+14. Wat is een mogelijke beperking van het gebruik van gemiddelde als samenvattende statistiek?
+  1. Wordt beinvloed dor outliers ✅
+  2. Is altijd groter dan mediaan
+  3. Kan alleen worden berekende voor categorische variabelen
+  4. Heeft geen praktische betekenis in ML
+15. Doel van boxplot?
+  1. weergeven verdeling van dataset en detecteren outliers ✅
+  2. voorspellen waarden in dataset
+  3. tonen van exacte correlatie tussen twee vars
+  4. weergeven van belangrijkste variabelen in dataset
+
+# Quiz: Hoofdstuk 3: Data
+1. Welke vorm van data vereist meestal voorafgaande bewerking zoals tokenisatie of vectorisatie?
+  1. numerieke data
+  2. categorische data
+  3. ongestructureerde data ✅
+  4. tijdsreeksen
+2. Wat is een belangrijk voordeel van gestructureere data?
+  1. gemakkelijker te visualiseren
+  2. kan direct in ai modellen worden ingevoerd zonder preprocessing ✅
+  3. Het bevat enkel numerieke waarden
+  4. Het is altijd in tabelvorm
+3. Wat is voorbeeld van semigestructureerde data?
+  1. csv
+  2. html
+  3. json ✅
+  4. sensorlog in excel-tabel
+4. Wat wordt bedoeld met data representatie in AI?
+  1. opslaan van data in tabellen
+  2. visualiseren van data met grafieken
+  3. Coderen van ruwe data in een vorm geschikt voor modellen ✅
+  4. samenvatten van data in statistieken
+5. wat is typisch geen voorbeeld van metadata?
+  1. naam van bestand
+  2. resolutie afbeelding
+
+6. representatie
+
+# Quiz: Recap alles
+1. Welke techniek helpt bij het omgaan met multicollineariteit in data?
+  A. Label Encoding
+  B. One-Hot Encoding
+  C. Feature selection ✅
+  D. Imputatie
+Multicollineariteit: wanneer twee of meer variabelen in een regressiemodel sterk gecorreleerd zijn, wat wil zeggen dat minstens een van hen op basis van het model voorspeld kan worden
+3. Welke bewerking past het minst bij unsupervised learning?
+  A. Clustering
+  B. Dimensiereductie
+  C. Classificatie ✅
+  D. Groeperen op gelijkenis
+4. Wat gebeurt er wanneer je een dataset niet splitst in train- en testset?
+  A. Het model wordt robuuster
+  B. Je meet de accuraatheid op dezelfde data waarmee je het model trainde ✅
+  C. De data worden automatisch gelabeld
+  D. Je voorkomt overfitting
+5. Wat is een nadeel van label encoding op een niet-ordinale variabele?
+  A. Het kost veel geheugen
+  B. De volgorde impliceert een numerieke relatie die er niet is ✅
+  C. Het veroorzaakt null-waarden
+  D. De training verloopt langzamer
+10. Wat is een nadeel van one-hot encoding bij veel unieke categorieën?
+  A. Data worden minder transparant
+  B. Het model kan niet convergeren
+  C. De dimensie van je dataset stijgt sterk ✅
+  D. Categorieën worden verkeerd geschaald
+
+vectorisatie x tokenisatie
+embedding = vectorrepresentatie van complexe data
+multicollineariteit
